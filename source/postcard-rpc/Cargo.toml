@@ -48,6 +48,7 @@ optional = true
 
 [features]
 default = []
+defmt-03 = ["dep:defmt", "postcard/use-defmt"]
 test-utils = [
     "use-std",
 ]
